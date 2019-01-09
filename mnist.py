@@ -35,12 +35,12 @@ print(x_train.shape)
 
 #common process-----------------------------------------------------------------------
 model = Sequential()
-model.add(Dense(input_dim=28*28, units=701, activation='relu'))
+model.add(Dense(input_dim=28*28, units=650, activation='relu'))
 
 #model.add(Dropout(0.8))#prevent overfitting add dropout
-model.add(Dense(units=701, activation='relu'))
+model.add(Dense(units=650, activation='relu'))
 #model.add(Dropout(0.8))
-model.add(Dense(units=701, activation='relu'))
+model.add(Dense(units=650, activation='relu'))
 #model.add(Dropout(0.8))
 
 #for i in range(25):
